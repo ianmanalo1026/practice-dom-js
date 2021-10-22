@@ -12,7 +12,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 100px;
+
   padding: 10px;
   /* margin-top: 30%; */
 }
@@ -20,14 +20,17 @@ body {
 .high-class {
   background-color: green;
   color: white;
+  padding: 50px;
 }
 
 .middle-class {
   background-color: blue;
   color: white;
+  padding: 50px;
 }
 
 .low-class {
   background-color: red;
   color: white;
+  padding: 50px;
 }

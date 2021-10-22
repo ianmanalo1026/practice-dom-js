@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* height: 100vh; */
+  font-family: sans-serif;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  padding: 10px;
+  /* margin-top: 30%; */
+}
+
+.high-class {
+  background-color: green;
+  color: white;
+}
+
+.middle-class {
+  background-color: blue;
+  color: white;
+}
+
+.low-class {
+  background-color: red;
+  color: white;
+}

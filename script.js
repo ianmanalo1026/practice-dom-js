@@ -32,12 +32,23 @@ lowClassSelector.addEventListener("click", function () {
   lowClassSelector.textContent = numberGenerator + numberGenerator;
 });
 
+const orderSet = new Set(["Apple", "Apple", "Banana", "Orange"]);
 const arr1 = [100, 200, 300, 400, 500, 600, 700, 800, 900, 1000];
 
+//forEach Function
 for (const arr of arr1) {
   console.log(arr);
 }
 
-arr1.forEach(function (arr) {
-  console.log(arr);
+arr1.forEach(function (arr, i) {
+  if (i % 2) {
+    console.log(`Number ${i + 1} ->> ${arr}`);
+  }
 });
+
+//Map Data Structure
+
+const rest = new Map();
+rest.set("Name", "Classico Italiano").set("open", 11).set("close", 23);
+
+console.log(rest.get("close"));
